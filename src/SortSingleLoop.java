@@ -16,7 +16,7 @@ public class SortSingleLoop {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int[] nums = new int[]{5,4,1,10,20,30};
+        int[] nums = new int[]{5,4,1,2,2,3,3,10,20,30};
         for (int i = 0; i < nums.length; i++) {
             int minNumIndex = findMin(i, nums.length-1, nums);
             swap(i, minNumIndex, nums);

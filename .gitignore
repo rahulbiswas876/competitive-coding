@@ -1,0 +1,6 @@
+#ignore every thing
+*
+
+#but not these folders
+!src
+
